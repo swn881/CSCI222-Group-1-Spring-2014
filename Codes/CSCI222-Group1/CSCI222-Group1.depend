@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1411645232 source:c:\users\ng\dropbox\uow\semester 4 wut wut\csci222\ass\assignmentgroup1\csci222-group-1-spring-2014\codes\csci222-group1\main.cpp
+	<iostream>
+	"UserBoundary.h"
+
+1411644396 c:\users\ng\dropbox\uow\semester 4 wut wut\csci222\ass\assignmentgroup1\csci222-group-1-spring-2014\codes\csci222-group1\user.h
+	<iostream>
+	<string>
+
+1411645199 c:\users\ng\dropbox\uow\semester 4 wut wut\csci222\ass\assignmentgroup1\csci222-group-1-spring-2014\codes\csci222-group1\userboundary.h
+	<iostream>
+
+1411645199 source:c:\users\ng\dropbox\uow\semester 4 wut wut\csci222\ass\assignmentgroup1\csci222-group-1-spring-2014\codes\csci222-group1\userboundary.cpp
+	<iostream>
+	"UserBoundary.h"
+
+1411644613 source:c:\users\ng\dropbox\uow\semester 4 wut wut\csci222\ass\assignmentgroup1\csci222-group-1-spring-2014\codes\csci222-group1\usercontrol.cpp
+
