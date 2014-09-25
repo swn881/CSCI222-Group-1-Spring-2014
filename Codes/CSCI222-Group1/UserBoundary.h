@@ -10,6 +10,7 @@ class UserBoundary
         UserControl userControl;
     public:
         void registerUser();
+        void login();
 };
 
 #endif // _USERBOUNDARY_

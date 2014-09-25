@@ -9,6 +9,7 @@ class UserControl
 
     public:
         void registerUser(std::string, std::string, std::string, std::string, std::string, std::string, std::string);
+        void login(std::string, std::string);
 };
 
 #endif // _USERCONTROL_

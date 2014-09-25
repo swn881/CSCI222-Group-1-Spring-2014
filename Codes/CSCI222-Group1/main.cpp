@@ -30,6 +30,7 @@ int main()
             case 2:
             {
                 cout << "You have selected login!" << endl;
+                userBoundary.login();
             }
             break;
             case 9:

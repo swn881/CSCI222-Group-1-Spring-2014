@@ -7,3 +7,8 @@ void UserControl::registerUser(string tempUn, string tempFN, string tempLN, stri
 {
 
 }
+
+void UserControl::login(string tempUN, string tempPw)
+{
+
+}

@@ -31,3 +31,16 @@ void UserBoundary::registerUser()
 
     userControl.registerUser(tempUN, tempFN, tempLN, tempEmail, tempUni, tempExp, tempPw);
 }
+
+void UserBoundary::login()
+{
+    string tempUN;
+    string tempPw;
+    cout << "Please key in your username and password. . ." << endl << endl;
+    cout << "Username: ";
+    cin >> tempUN;
+    cout << "Password: ";
+    cin >> tempPw;
+
+    userControl.login(tempUN, tempPw);
+}
