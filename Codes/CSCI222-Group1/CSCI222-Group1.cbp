@@ -31,6 +31,12 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="User.h" />
+		<Unit filename="UserBoundary.cpp" />
+		<Unit filename="UserBoundary.h" />
+		<Unit filename="UserControl.cpp" />
+		<Unit filename="UserControl.h" />
+		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
