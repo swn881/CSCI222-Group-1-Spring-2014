@@ -5,5 +5,5 @@ using namespace std;
 
 void UserBoundary::registerUser()
 {
-
+    cout << "Please input as stated..." << endl << endl;
 }
