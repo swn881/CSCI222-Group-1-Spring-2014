@@ -28,4 +28,6 @@ void UserBoundary::registerUser()
     cin >> tempExp;
     cout << "Password: ";
     cin >> tempPw;
+
+    userControl.registerUser(tempUN, tempFN, tempLN, tempEmail, tempUni, tempExp, tempPw);
 }
