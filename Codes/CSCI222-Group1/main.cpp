@@ -15,6 +15,8 @@ int main()
         cout << "What would you like to do today?" << endl;
         cout << "1. Register" << endl;
         cout << "2. Login" << endl;
+        cout << "3. change password" << endl;
+        cout << "4. change details" << endl;
         cout << "9. Exit" << endl;
         cout << "Choice: ";
         cin >> choice;
@@ -31,6 +33,18 @@ int main()
             {
                 cout << "You have selected login!" << endl;
                 userBoundary.login();
+            }
+            break;
+            case 3: //preferably to make it after user logged in
+            {
+                cout << "You have selected to change password" << endl;
+                userBoundary.changePassword();
+            }
+            break;
+            case 4: //preferably to amke it after user logged in
+            {
+                cout << "You have selected to modify details" << endl;
+                userBoundary.changeDetails();
             }
             break;
             case 9:

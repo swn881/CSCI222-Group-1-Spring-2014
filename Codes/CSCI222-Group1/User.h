@@ -6,6 +6,8 @@
 
 class User
 {
+    friend std::ostream& operator<<(std::ostream&,const User &);
+    friend std::istream& operator>>(std::istream&,User &);
     private:
         std::string userName;
         std::string firstName;
@@ -16,13 +18,17 @@ class User
         std::string password;
     public:
         User() {userName = ""; firstName = ""; lastName = ""; email = ""; university = ""; password = "";}
-        void setUserName (std::string tempUN) {userName = tempUN;}
-        void setFirstName(std::string tempFN) {firstName = tempFN;}
-        void setLastName (std::string tempLN) {lastName = tempLN;}
-        void setEmail (std::string tempEmail) {email = tempEmail;}
-        void setUniversity (std::string tempUni) {university = tempUni;}
-        void setExpertise (std::string tempExp) {expertise = tempExp;}
-        void setPassword (std::string tempPw) {password = tempPw;}
+        ~User();
+        void setAll(std::string, std::string, std::string, std::string, std::string, std::string, std::string);
+        void setUserName (std::string);
+        void setFirstName(std::string);
+        void setLastName (std::string);
+        void setEmail (std::string);
+        void setUniversity (std::string);
+        void setExpertise (std::string);
+        void setPassword (std::string);
+        std::string getUsername();
+        std::string getPassword();
 };
 
 #endif
